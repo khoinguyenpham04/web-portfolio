@@ -13,7 +13,7 @@ const routes = {
     '/':        true,
     '/about':   true,
     '/work':    true,
-    '/blog':    false,
+    '/blog':    true,
     '/gallery': true,
 }
 
@@ -25,8 +25,8 @@ const protectedRoutes = {
 
 const effects = {
     gradient: true,
-    dots:     true,
-    lines:    false,
+    dots:     false,
+    lines:    true,
 }
 
 const style = {
