@@ -223,12 +223,12 @@ const gallery = {
             orientation: 'vertical'
         },
         { 
-            src: '/images/gallery/img-09.jpg', 
+            src: '/images/gallery/img-09.JPG', 
             alt: 'image',
             orientation: 'vertical'
         },
         { 
-            src: '/images/gallery/img-10.jpg', 
+            src: '/images/gallery/img-10.JPG', 
             alt: 'image',
             orientation: 'horizontal'
         },
