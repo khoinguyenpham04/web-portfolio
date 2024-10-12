@@ -13,7 +13,7 @@ const routes = {
     '/':        true,
     '/about':   true,
     '/work':    true,
-    '/blog':    true,
+    '/blog':    false,
     '/gallery': true,
 }
 
@@ -50,8 +50,8 @@ const mailchimp = {
     action: 'https://url/subscribe/post?parameters',
     effects: {
         gradient: true,
-        dots:     false,
-        lines:    true,
+        dots:     true,
+        lines:    false,
     }
 }
 
