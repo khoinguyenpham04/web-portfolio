@@ -15,8 +15,8 @@ const person = {
 
 const newsletter = {
     display: true,
-    title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
+    title: <>Enter your email to request {person.firstName}'s Technical Resume</>,
+    description: <></>
 }
 
 const social = [
@@ -65,7 +65,7 @@ const about = {
     },
     calendar: {
         display: true,
-        link: 'https://cal.com'
+        link: 'https://cal.com/noah-pham/15min'
     },
     intro: {
         display: true,
