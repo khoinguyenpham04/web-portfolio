@@ -1,0 +1,136 @@
+---
+title: "ChessMind - AI-Powered Chess Learning"
+publishedAt: "2024-11-25"
+summary: "A sophisticated chess learning platform combining interactive gameplay with AI-powered analysis and teaching capabilities."
+images:
+  - "/images/projects/project-01/chessmindmockup.png"
+  - "/images/projects/project-01/chessmindai.vercel.app_.png"
+  
+team:
+  - name: "Your Name"
+    role: "Full Stack Developer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/khoinguyenpham04/"
+---
+
+## Overview
+
+**ChessMind** is a sophisticated chess learning platform that combines interactive gameplay with AI-powered analysis and teaching capabilities. Built with Next.js and leveraging various modern technologies, this app offers a seamless user experience with advanced chess functionalities.
+
+## Tech Stack
+
+1. **Frontend Framework**:
+   - Next.js 14.2 (App Router)
+   - React 18
+   - TypeScript
+
+2. **Authentication**:
+   - Clerk (`@clerk/nextjs`) for user authentication
+
+3. **UI Components**:
+   - Shadcn UI components
+   - Radix UI primitives
+   - Tailwind CSS for styling
+   - Lucide React for icons
+   - `class-variance-authority` for component variants
+   - `tailwind-merge` for class merging
+
+4. **Chess Related**:
+   - `chess.js` for chess game logic
+   - Stockfish.js for chess engine/AI
+   - `react-chessboard` for chessboard UI
+
+5. **AI/ML Integration**:
+   - OpenAI API for move analysis
+   - AI SDK for React (`@ai-sdk/react`)
+   - Text-to-speech capabilities
+
+## Key Features
+
+1. **Chess Game**:
+   - Interactive chessboard interface
+   - Play against AI (Stockfish engine)
+   - Multiple difficulty levels
+   - Move validation
+   - Undo/redo functionality
+   - Game state management
+
+2. **AI Analysis**:
+   - Real-time move analysis using GPT-3.5
+   - Text-to-speech explanations
+   - Markdown-formatted analysis output
+   - Strategic assessments and recommendations
+
+3. **User Interface**:
+   - Responsive design
+   - Dark mode support
+   - Animated components
+   - Grid background with gradient effects
+   - Custom button styles
+
+4. **Authentication & Routes**:
+   - Protected routes (/practice)
+   - Sign in/Sign up pages
+   - User session management
+
+5. **Project Structure**:
+   ```
+   /app - Next.js app router pages
+   /components - React components
+   /hooks - Custom React hooks
+   /lib - Utility functions
+   /utils - Helper functions
+   /public - Static assets
+   ```
+
+## Notable Components
+
+1. **ChessGameComponent**:
+   - Main chess game interface
+   - AI integration
+   - Move handling
+
+2. **MoveAnalysis**:
+   - AI-powered move analysis
+   - Text-to-speech functionality
+   - Markdown rendering
+
+3. **AudioControls**:
+   - Audio playback interface
+   - Play/pause controls
+
+4. **Navbar**:
+   - Navigation
+   - Authentication status
+   - Responsive menu
+
+## Development Setup
+
+- ESLint for code linting
+- PostCSS for CSS processing
+- TypeScript configuration
+- Environment variables support
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, feel free to create a pull request or open an issue.
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [Next.js](https://nextjs.org/) for the powerful framework.
+- [OpenAI](https://openai.com/) for the AI capabilities.
+- [Stockfish](https://stockfishchess.org/) for the chess engine.
+- [Clerk](https://clerk.dev/) for authentication services.
+
+Thank you for checking out ChessMind! We hope you find it useful and enjoyable.
