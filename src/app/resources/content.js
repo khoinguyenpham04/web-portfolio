@@ -213,11 +213,6 @@ const gallery = {
             orientation: 'vertical'
         },
         { 
-            src: '/images/gallery/img-7.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
             src: '/images/gallery/img-8.jpg', 
             alt: 'image',
             orientation: 'vertical'
@@ -232,11 +227,11 @@ const gallery = {
             alt: 'image',
             orientation: 'horizontal'
         },
-        { 
-            src: '/images/gallery/img-11.jpeg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
+        // { 
+        //     src: '/images/gallery/img-11.jpeg', 
+        //     alt: 'image',
+        //     orientation: 'vertical'
+        // },
         { 
             src: '/images/gallery/img-12.jpg', 
             alt: 'image',
@@ -245,27 +240,22 @@ const gallery = {
         { 
             src: '/images/gallery/img-13.jpg', 
             alt: 'image',
-            orientation: 'vertical'
+            orientation: 'horizontal'
         },
         { 
             src: '/images/gallery/img-14.jpg', 
             alt: 'image',
             orientation: 'horizontal'
         },
-        { 
-            src: '/images/gallery/img-15.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
+        // { 
+        //     src: '/images/gallery/img-15.jpg', 
+        //     alt: 'image',
+        //     orientation: 'horizontal'
+        // },
         { 
             src: '/images/gallery/img-16.jpg', 
             alt: 'image',
             orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-17.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
         },
     ]
 }
